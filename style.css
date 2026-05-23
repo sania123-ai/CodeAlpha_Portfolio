@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.card {
+  background: #f2f2f2;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: lightblue;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
